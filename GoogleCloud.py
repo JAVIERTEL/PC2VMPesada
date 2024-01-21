@@ -14,7 +14,7 @@ run_command("sudo apt-get update -y")
 run_command("sudo apt install python3-pip -y")
 
 # Descargamos los archivos proporcionados para la práctica
-run_command("git clone https://github.com/JAVIERTEL/PC2Editada.git") 
+run_command("git clone https://github.com/CDPS-ETSIT/practica_creativa2.git") 
 
 # Usando pip3, instalamos las dependencias especificadas en el fichero requirements.txt
 run_command("pip3 install -r practica_creativa2/bookinfo/src/productpage/requirements.txt")
